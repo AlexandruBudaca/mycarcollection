@@ -3,6 +3,7 @@
 let slideIndex = 1;
 
 function plusSlide(n) {
+  clearInterval(intervalId);
   slideShow((slideIndex += n));
 }
 
